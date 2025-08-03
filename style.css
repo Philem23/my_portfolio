@@ -31,8 +31,8 @@ header p {
 }
 
 .profile-photo {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   object-fit: cover;
   border-radius: 10% / 9%;
   border: 2px solid #1a1a40;
@@ -125,5 +125,6 @@ footer a {
 .projects article {
   margin-bottom: 25px;
 }
+
 
 
