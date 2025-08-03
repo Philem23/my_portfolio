@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #000; /* Black background */
+  color: #ffffff;         /* Lime green text */
+  padding: 20px;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #7ff607; /* Deep purple */
+  color: #ADFF2F;            /* Orange text */
+  text-align: center;
+  padding: 40px 0;
+}
+
+header h1,
+header p {
+  color: #000000;
+}
+.profile-photo {
+  width: 100 px;
+  height: 100 px;
+  object-fit: cover;
+  border-radius: 10% / 9%; /* Squircle shape */
+  border: 3px solid #000000; /* Black border */
+  margin-top: 15px;
+} 
+
+section {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #000000;      /* Slightly lighter than black */
+  border: 1px solid #ffffff;   /* Lime green border */
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(50, 205, 50, 0.2); /* Green glow */
+}
+
+h2 {
+  color: #ADFF2F; /* Luminous yellow-green */
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: square inside;
+  color: #ffffff;
+}
+
+.project a,
+.cv-button,
+form button {
+  color: #000;
+  background-color: #8ded08;
+  padding: 10px 15px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+.project a:hover,
+.cv-button:hover,
+form button:hover {
+  background-color: #ffb300;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+
+.project a {
+  color: #00ffff; /* Bright cyan (change to any color you like) */
+  text-decoration: underline;
+}
+
+.project a {
+  color: purple;             /* Default color before clicking */
+  text-decoration: underline;
+}
+
+.project a:hover {
+  color: yellow;             /* Color on hover */
+}
+
