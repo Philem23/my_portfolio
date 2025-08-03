@@ -3,7 +3,7 @@
 Welcome to my personal portfolio repository! This project showcases who I am, what I do, and the projects I’ve built or contributed to.
 
 ## 🌐 Live Demo
-Check out the live version here: https://your-portfolio-link.com
+Check out the live version here: https://philchweya.netlify.app/
 
 ---
 
@@ -20,7 +20,7 @@ This portfolio was built to:
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS  
-- **Tools:** Git, GitHub, PyCharm  
+- **Tools:** Git, GitHub, VS Code
 - **Hosting:** Netlify
 
 ---
