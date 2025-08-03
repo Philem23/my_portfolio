@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@ header {
   color: #ffffff;
   text-align: center;
   padding: 40px 0;
-  border: 2px solid #000000;   /* Black border */
+  border: 3px solid #0B1D51;   /* Black border */
   border-radius: 20px;         /* Rounded corners */
 }
 
@@ -31,11 +31,11 @@ header p {
 }
 
 .profile-photo {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   object-fit: cover;
   border-radius: 10% / 9%;
-  border: 3px solid #1a1a40;
+  border: 2px solid #1a1a40;
   margin-top: 15px;
 }
 
@@ -51,12 +51,12 @@ section {
 
 
 h2 {
-  color: #8ded08;
+  color: #B4E50D;
   margin-bottom: 15px;
 }
 
 h3 {
-  color: #8ded08; /* Match section heading color */
+  color: #B4E50D; /* Match section heading color */
   margin-bottom: 10px;
 }
 
@@ -80,7 +80,7 @@ form button {
 
 .cv-button:hover,
 form button:hover {
-  background-color: #8ded08;
+  background-color: #B4E50D;
 }
 
 form {
@@ -125,3 +125,4 @@ footer a {
 .projects article {
   margin-bottom: 25px;
 }
+
