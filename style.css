@@ -26,8 +26,8 @@ header p {
   color: #000000;
 }
 .profile-photo {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 10% / 9%; /* Squircle shape */
   border: 3px solid #000000; /* Black border */
@@ -95,6 +95,7 @@ form textarea {
 .project a:hover {
   color: yellow;             /* Color on hover */
 }
+
 
 
 
