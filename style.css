@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 * {
   margin: 0;
@@ -8,57 +8,68 @@
 }
 
 body {
-  background-color: #000; /* Black background */
-  color: #ffffff;         /* Lime green text */
+  background: linear-gradient(to right
+  , #145277, #83d0cb) ; /* Gradient */
+  color: #ffffff;
   padding: 20px;
   line-height: 1.6;
+  min-height: 100vh;
 }
 
 header {
-  background-color: #7ff607; /* Deep purple */
-  color: #ADFF2F;            /* Orange text */
+  background: linear-gradient(to right, #fcbc98, #f1e1c2); /*  gradient */
+  color: #ffffff;
   text-align: center;
   padding: 40px 0;
+  border: 2px solid #000000;   /* Black border */
+  border-radius: 20px;         /* Rounded corners */
 }
 
 header h1,
 header p {
-  color: #000000;
+  color: #0B1D51;
 }
+
 .profile-photo {
   width: 100px;
   height: 100px;
   object-fit: cover;
-  border-radius: 10% / 9%; /* Squircle shape */
-  border: 3px solid #000000; /* Black border */
+  border-radius: 10% / 9%;
+  border: 3px solid #1a1a40;
   margin-top: 15px;
-} 
+}
 
 section {
   margin: 20px 0;
   padding: 20px;
-  background-color: #000000;      /* Slightly lighter than black */
-  border: 1px solid #ffffff;   /* Lime green border */
+  background-color: #2A0944;        /* Deep indigo background */
+  color: #FFD700;                   /* Golden yellow text */
+  border: 2px solid #ffffff;
   border-radius: 15px;
-  box-shadow: 0 0 10px rgba(50, 205, 50, 0.2); /* Green glow */
+  box-shadow: 0 0 10px rgba(50, 205, 50, 0.2);
 }
 
+
 h2 {
-  color: #ADFF2F; /* Luminous yellow-green */
+  color: #8ded08;
   margin-bottom: 15px;
+}
+
+h3 {
+  color: #8ded08; /* Match section heading color */
+  margin-bottom: 10px;
 }
 
 ul {
   list-style: square inside;
-  color: #ffffff;
+  color: #FFD700;
 }
 
-.project a,
 .cv-button,
 form button {
   color: #000;
-  background-color: #8ded08;
-  padding: 10px 15px;
+  background-color: #ffffff;
+  padding: 5px 15px;
   text-decoration: none;
   border: none;
   border-radius: 5px;
@@ -67,10 +78,9 @@ form button {
   transition: background 0.3s;
 }
 
-.project a:hover,
 .cv-button:hover,
 form button:hover {
-  background-color: #ffb300;
+  background-color: #8ded08;
 }
 
 form {
@@ -78,24 +88,40 @@ form {
   flex-direction: column;
 }
 
+#contact form {
+  margin-top: 20px; /* Adds vertical space between text and form */
+}
+
+
 form input,
 form textarea {
   padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
 
-.project a {
-  color: #00ffff; /* Bright cyan (change to any color you like) */
+/* GitHub link style */
+.github-link {
+  color: #ffffff;
   text-decoration: underline;
 }
 
-.project a {
-  color: purple;             /* Default color before clicking */
+.github-link:hover {
+  color: #ffffff;
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer a {
+  color: yellow;
   text-decoration: underline;
 }
 
-.project a:hover {
-  color: yellow;             /* Color on hover */
+.projects article {
+  margin-bottom: 25px;
 }
-
-
-
-
